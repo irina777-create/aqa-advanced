@@ -15,6 +15,5 @@ switch (gradeGroup) {
     case 6:
         console.log("Задовільно");
         break;
-    default:
-        console.log("Незадовільно");
+
 }
