@@ -1,7 +1,7 @@
 const book = {
-    title: "Майстер і Маргарита",
-    author: "Михайло Булгаков",
-    year: 1967
+  title: "Майстер і Маргарита",
+  author: "Михайло Булгаков",
+  year: 1967,
 };
 const { title, author } = book;
 

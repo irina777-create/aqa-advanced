@@ -4,7 +4,7 @@
 // Функція повинна вивести в консоль переданий текст через вказану кількість мілісекунд
 
 function saySay(text, name) {
-    console.log(`${text} ${name}!`);
+  console.log(`${text} ${name}!`);
 }
 
-const intervalId = setInterval(saySay, 1000, 'Hello', 'Ana');
+const intervalId = setInterval(saySay, 1000, "Hello", "Ana");
