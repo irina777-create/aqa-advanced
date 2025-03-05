@@ -32,13 +32,13 @@ function fetchUser() {
             return user;
         })
         .catch((error) => {
-                    console.error("Помилка при отриманні user:", error);
+                     console.error("Помилка при отриманні user:", error);
         });
 }
 
 Promise.all([fetchTodo(), fetchUser()])
     .then(([todo, user]) => {
-        console.log("Promise.all завершився:");
+                console.log("Promise.all завершився:");
         console.log("Todo:", todo);
         console.log("User:", user);
     })
