@@ -7,7 +7,7 @@
     "prepare": "husky install",
     "lint": "eslint./code quality",
     "lint:fix": "eslint./code quality-fix",
-    "scripts": {
+    "scripts":{
       "prepare": "husky install"
     },
     "lint-staged": {

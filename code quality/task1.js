@@ -8,8 +8,8 @@ const car1 = {
 }
 
 const car2 = {
-    brand: 'Honda',
-    model: 'Civic',
+    brand: 'Nissan',
+    model: 'March',
     owner: 2018,
 }
 
